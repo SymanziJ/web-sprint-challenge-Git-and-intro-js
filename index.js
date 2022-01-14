@@ -208,17 +208,17 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
-
+console.log('Task 1.1' + '\n' + artists[0].name + '\n' + '\n');
 
 //(2) Bio of the third artist (2nd index) in the array 
-
+console.log('Task 1.2' + '\n' + artists[2].bio + '\n' + '\n');
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
-
-
+artists[8].name = 'Vincent Van Gogh';
+console.log('Task 2' + '\n' + artists[8].name + '\n' + '\n');
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
